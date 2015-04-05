@@ -97,68 +97,10 @@ body {
 
 
 /*
- * Header
+ * Navbar
  */
 
- /*
-.masthead-brand {
-  
-}
 
-.masthead-brand li a {
-  font-size: 24px;
-  font-weight: bold;
-  color: #3a3232; 
-}
-
-.masthead-brand li a:hover,
-.masthead-brand li a:focus {
-  background: transparent;
-  color:#0fecaf ;
-  -webkit-transition: color .2s ease-in;
-  -moz-transition: color  .2s ease-in;
-  -ms-transition: color  .2s ease-in;
-  -o-transition: color  .2s ease-in;
-  transition: color  .2s ease-in;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 20px;
-  font-weight: bold;
-  color: #3a3232; 
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  color: #0fecaf;
-  -webkit-transition: color 0.2s ease-in;
--moz-transition: color 0.2s ease-in;
--ms-transition: color 0.2s ease-in;
--o-transition: color 0.2s ease-in;
-transition: color 0.2s ease-in;
-  
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #0fecaf;
-   -webkit-transition: color 0.2s ease-in;
--moz-transition: color 0.2s ease-in;
--ms-transition: color 0.2s ease-in;
--o-transition: color 0.2s ease-in;
-transition: color 0.2s ease-in;
-
-}
-
-*/
 
 .navbar-default {
   background: transparent;
@@ -182,9 +124,7 @@ transition: color 0.2s ease-in;
 }
 
 
-a.dropdown-toggle {
-  background: transparent;
-}
+
 
 .dropdown-menu {
   background-color: #3a3232;
@@ -223,7 +163,8 @@ a.dropdown-toggle {
   text-transform: uppercase;
 }
 
-.cover .btn-lg:hover {
+.cover .btn-lg:hover,
+.cover .btn-lg:focus {
   color: #0fecaf;
   border-color: #0fecaf;
   -webkit-transition: color 0.2s ease-in;
@@ -231,6 +172,7 @@ a.dropdown-toggle {
   -ms-transition: color 0.2s ease-in;
   -o-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
+  box-shadow: none;
 }
 
 @media (min-width: 768px) {
