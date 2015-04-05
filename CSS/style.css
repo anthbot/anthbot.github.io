@@ -99,6 +99,8 @@ body {
 /*
  * Header
  */
+
+ /*
 .masthead-brand {
   
 }
@@ -106,7 +108,7 @@ body {
 .masthead-brand li a {
   font-size: 24px;
   font-weight: bold;
-  color: #3a3232; /* IE8 proofing */
+  color: #3a3232; 
 }
 
 .masthead-brand li a:hover,
@@ -131,7 +133,7 @@ body {
   padding-left: 0;
   font-size: 20px;
   font-weight: bold;
-  color: #3a3232; /* IE8 proofing */
+  color: #3a3232; 
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -154,6 +156,44 @@ transition: color 0.2s ease-in;
 -o-transition: color 0.2s ease-in;
 transition: color 0.2s ease-in;
 
+}
+
+*/
+
+.navbar-default {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 20px;
+  color: #3a3232;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #0fecaf;
+  -webkit-transition: color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -ms-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.dropdown-menu {
+  background-color: #3a3232;
+}
+
+.dropdown-menu>li>a {
+  color: #fff;
+  font-weight: normal;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #fff;
+  background-color: #494949;
 }
 
 .cover-heading {
