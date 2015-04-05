@@ -181,6 +181,11 @@ transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
 }
 
+
+a.dropdown-toggle {
+  background: transparent;
+}
+
 .dropdown-menu {
   background-color: #3a3232;
 }
