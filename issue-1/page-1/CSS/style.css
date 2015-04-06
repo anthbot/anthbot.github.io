@@ -6,9 +6,9 @@
 @font-face {
   font-family: 'Manteka';
   src: url('Manteka.eot?#iefix') format('embedded-opentype'),  
-  url('..fonts/Manteka.woff') format('woff'), 
-  url('..fonts/Manteka.ttf')  format('truetype'), 
-  url('..fonts/Manteka.svg#Manteka') format('svg');
+  url('../fonts/Manteka.woff') format('woff'), 
+  url('../fonts/Manteka.ttf')  format('truetype'), 
+  url('...fonts/Manteka.svg#Manteka') format('svg');
   font-weight: normal;
   font-style: normal;
 }
