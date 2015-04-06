@@ -152,7 +152,7 @@ body {
 }
 
 .cover-heading {
-  font-family: 'Manteka';
+  font-family: 'Quantico', sans-serif;
   font-size: 60px;
 }
 
@@ -203,13 +203,14 @@ body {
   padding: 0 20px;
 }
 .cover .btn-lg {
-  font-family: 'Manteka';
+  font-family: 'Quantico', sans-serif;
   font-size: 16px;
+  text-transform: uppercase;
   background-color: transparent;
   border-color:#3a3232; 
   border-radius: 0px;
   border-width: 2px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-weight: bold;
 }
 

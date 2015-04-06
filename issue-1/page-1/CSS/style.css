@@ -158,7 +158,8 @@ body {
 
 
 .title-head {
-  font-family: 'Manteka';
+  font-family: 'Quantico', 'Manteka', sans-serif;
+  text-transform: uppercase;
   font-size: 48px;
 }
 
