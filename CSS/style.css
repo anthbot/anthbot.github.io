@@ -73,7 +73,12 @@ html,
 body {
   height: 100%;
   background-color: #ededd7;
+  background-image: url(../img/cover.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 1920px 1080px;
 }
+
 body {
   color: #3a3232;
   text-align: center;
@@ -89,11 +94,11 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  background-image: url(../img/cover.png);
-  background-repeat: no-repeat;
-  background-position: center; 
 }
+
 .cover-container {
+
+  margin-top: 150px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -107,6 +112,15 @@ body {
 /*
  * Navbar
  */
+
+ .nav-wrapper {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .navbar-default {
@@ -243,7 +257,7 @@ body {
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    /*vertical-align: middle; */
   }
   /* Handle the widths */
   .masthead,
