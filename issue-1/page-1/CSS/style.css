@@ -1,0 +1,297 @@
+/*
+ * Globals
+ */
+
+
+@font-face {
+  font-family: 'Manteka';
+  src: url('Manteka.eot?#iefix') format('embedded-opentype'),  
+  url('..fonts/Manteka.woff') format('woff'), 
+  url('..fonts/Manteka.ttf')  format('truetype'), 
+  url('..fonts/Manteka.svg#Manteka') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corporate-Logo-Medium';
+  src: url('../fonts/Corporate-Logo-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Corporate-Logo-Medium.woff') format('woff'), 
+  url('../fonts/Corporate-Logo-Medium.ttf')  format('truetype'), 
+  url('../fonts/Corporate-Logo-Medium.svg#Corporate-Logo-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('NexaLight.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/NexaLight.otf')  format('opentype'),
+  url('../fonts/NexaLight.woff') format('woff'), 
+  url('../fonts/NexaLight.ttf')  format('truetype'), 
+  url('../fonts/NexaLight.svg#NexaLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #ededd7;
+}
+body {
+  color: #3a3232;
+  text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 20px;
+}
+
+
+/*
+ * Navbar
+ */
+
+
+.navbar-default {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 20px;
+  color: #3a3232;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #0fecaf;
+  -webkit-transition: color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -ms-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+
+
+
+.dropdown-menu {
+  background-color: #3a3232;
+}
+
+.dropdown-menu>li>a {
+  color: #7c7c7c;
+  font-weight: normal;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #fff;
+  background-color: #494949;
+}
+
+/*
+ * Typography
+ */
+
+ p {
+  color: #5d5d5d;
+ }
+
+
+.title-head {
+  font-family: 'Manteka';
+  font-size: 48px;
+}
+
+.article-jap {
+  color: #0fecaf;
+  font-family: 'Corporate-Logo-Medium';
+  font-size: 24px;
+}
+
+.subtitle {
+  font-family: 'NexaLight';
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.article-head {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.article-copy {
+  font-family: Georgia, Times, serif;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.article-find {
+  font-family: 'Corporate-Logo-Medium';
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.article-find a {
+  color: #5d5d5d;
+}
+
+.article-find a:hover,
+.article-find a:focus {
+  color: #0fecaf;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -ms-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.mastfoot p {
+  color: #9b9b9b;
+  font-family: 'NexaLight';
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  font-family: 'Manteka';
+  font-size: 16px;
+  background-color: transparent;
+  border-color:#3a3232; 
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(#0ad8e5, #6bf174);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
