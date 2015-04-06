@@ -76,8 +76,8 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://twitter.com/share?text=Gen%20Y%20Gamer%20Issue%201%20"><i class="fa fa-twitter"></i></a></li>
-        <li><a hred="facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgyg.guide&text=Reading+Gen+Y+Gamer:+Issue+1&hashtags=gaming,nyc,toronto" class="share"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgyg.guide%2F" class="share"><i class="fa fa-facebook"></i></a></li>
         <li><a href="http://gyg.guide"><i class="fa fa-chevron-left"></i></a></li>
         <li><a href="../../issue-1/page-2/"><i class="fa fa-chevron-right"></i></a></li> 
       </ul>
@@ -141,7 +141,46 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/tweet.js"></script>
+    <script>
+// create social networking pop-ups
+(function() {
+
+  var Config = {
+    Link: "a.share",
+    Width: 500,
+    Height: 500
+  };
+
+  // add handler links
+  var slink = document.querySelectorAll(Config.Link);
+  for (var a = 0; a < slink.length; a++) {
+    slink[a].onclick = PopupHandler;
+  }
+
+  // create popup
+  function PopupHandler(e) {
+
+    e = (e ? e : window.event);
+    var t = (e.target ? e.target : e.srcElement);
+
+    // popup position
+    var
+      px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
+      py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
+
+    // open popup
+    var popup = window.open(t.href, "social", "width="+Config.Width+",height="+Config.Height+",left="+px+",top="+py+",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+    if (popup) {
+      popup.focus();
+      if (e.preventDefault) e.preventDefault();
+      e.returnValue = false;
+    }
+
+    return !!popup;
+  }
+
+}());
+</script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
   </body>
