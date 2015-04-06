@@ -61,6 +61,16 @@ a:hover {
  * Base structure
  */
 
+  ::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #3a3232;
+}
+
+::selection {
+    color: #fff;
+    background: #3a3232;
+}
+
 html,
 body {
   height: 100%;

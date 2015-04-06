@@ -142,6 +142,16 @@ body {
  * Typography
  */
 
+ ::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #3a3232;
+}
+
+::selection {
+    color: #fff;
+    background: #3a3232;
+}
+
  p {
   color: #5d5d5d;
  }
