@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Manteka';
-  src: url('Manteka.eot?#iefix') format('embedded-opentype'),  
+  src: url('../fonts/Manteka.eot?#iefix') format('embedded-opentype'),  
   url('..fonts/Manteka.woff') format('woff'), 
   url('..fonts/Manteka.ttf')  format('truetype'), 
   url('..fonts/Manteka.svg#Manteka') format('svg');
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: 'NexaLight';
-  src: url('NexaLight.eot?#iefix') format('embedded-opentype'),  
+  src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),  
   url('../fonts/NexaLight.otf')  format('opentype'),
   url('../fonts/NexaLight.woff') format('woff'), 
   url('../fonts/NexaLight.ttf')  format('truetype'), 
