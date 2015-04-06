@@ -6,9 +6,9 @@
 @font-face {
   font-family: 'Manteka';
   src: url('../fonts/Manteka.eot?#iefix') format('embedded-opentype'),  
-  url('..fonts/Manteka.woff') format('woff'), 
-  url('..fonts/Manteka.ttf')  format('truetype'), 
-  url('..fonts/Manteka.svg#Manteka') format('svg');
+  url('../fonts/Manteka.woff') format('woff'), 
+  url('../fonts/Manteka.ttf')  format('truetype'), 
+  url('../fonts/Manteka.svg#Manteka') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,8 +36,6 @@
 
 
 
-
-
 /* Links */
 a,
 a:focus,
@@ -61,7 +59,7 @@ a:hover {
  * Base structure
  */
 
-  ::-moz-selection { /* Code for Firefox */
+::-moz-selection { /* Code for Firefox */
     color: #fff;
     background: #3a3232;
 }
@@ -109,7 +107,6 @@ body {
 /*
  * Navbar
  */
-
 
 
 .navbar-default {
@@ -229,7 +226,6 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
-
 
 /*
  * Affix and center
